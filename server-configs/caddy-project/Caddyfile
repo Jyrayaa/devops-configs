@@ -1,0 +1,17 @@
+# Frontend React app
+frontend.example.com {
+    root * /srv/caddy/sites/frontend
+    file_server
+    log {
+        output file /srv/caddy/logs/frontend-access.log
+    }
+}
+
+# Backend API (Django / Node)
+api.example.com {
+    reverse_proxy localhost:8000
+    log {
+        output file /srv/caddy/logs/backend-access.log
+    }
+    tls admin@example.com
+}
