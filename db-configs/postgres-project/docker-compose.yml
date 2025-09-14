@@ -1,0 +1,22 @@
+version: "3.8"
+
+services:
+  postgres:
+    image: postgres:15
+    container_name: postgres_devops
+    restart: always
+    environment:
+      POSTGRES_USER: devops
+      POSTGRES_PASSWORD: devops123
+      POSTGRES_DB: devdb
+    ports:
+      - "5432:5432"
+    volumes:
+      - ./config/postgresql.conf:/etc/postgresql/postgresql.conf
+      - ./config/pg_hba.conf:/etc/postgresql/pg_hba.conf
+      - ./config/pg_ident.conf:/etc/postgresql/pg_ident.conf
+      - postgres_data:/var/lib/postgresql/data
+    command: ["postgres", "-c", "config_file=/etc/postgresql/postgresql.conf"]
+
+volumes:
+  postgres_data:
