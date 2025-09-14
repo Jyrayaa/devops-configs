@@ -1,0 +1,6 @@
+[mysqld]
+# Custom tuning for DevOps
+max_allowed_packet = 64M
+tmp_table_size = 64M
+thread_cache_size = 16
+query_cache_size = 32M
